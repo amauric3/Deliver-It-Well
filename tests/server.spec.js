@@ -43,7 +43,7 @@ describe('server/app.js', function() {
       .get('/')
       .end((err, res) => {
         expect(err).not.exist;
-        expect(JSON.stringify(res.text)).to.contain('Broken Test');
+        expect(JSON.stringify(res.text)).to.contain('Deliver It Well');
         done();
       });
   });
